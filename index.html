@@ -11,8 +11,8 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-8 p-4 text-light" id="container1">
+        <div class="row d-flex flex-row">
+            <div class="col-12 col-lg-8 p-4 text-light" id="container1">
                 <div id="container1" class="spann">UP TO 30% OFF ON ALL STYLES, Click Here For 
                     <i class="fa-regular fa-hand-point-right"></i>
                         <a href="#">&nbsp; More Details</a>
@@ -23,7 +23,7 @@
                         <h1>SPRY<span class="text-warning">S</span>TORE</h1>
                     </div>
                     <div class="fs-5 ms-5">
-                        <a href="" class="spann2 text-light"><i class="fa-solid fa-magnifying-glass"></i> &nbsp;&nbsp; Search here</a>
+                        <a href="#" class="spann2 text-light"><i class="fa-solid fa-magnifying-glass" id="search"></i> &nbsp;&nbsp; Search here</a>
                     </div>
                 </div>
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -75,16 +75,33 @@
                     </button>
                   </div>
             </div>
-            <div class="col-4" id="container2">
+            <div class="col-12 col-lg-4" id="container2">
                 <div class="d-flex flex-row justify-content-end">
                     <div><button class="p-2 rounded-circle bg-dark me-3 text-light border-0"><i class="fa-regular fa-user"></i></button></div>
                     <div><button class="p-2 rounded-pill bg-dark text-light border-0">My Cart<i class="fa-solid fa-cart-shopping"></i></button></div>
                 </div>
                 <div class="d-flex flex-row justify-content-around mt-3">
-                    <div><a href="#" class="lnk">HOME</a></div>
-                    <div><a href="about.html" class="lnk">ABOUT</a></div>
-                    <div><a href="#" class="lnk">WHAT WE OFFER</a></div>
-                    <div><a href="#" class="lnk">CONTACT</a></div>
+                    <nav class="navbar navbar-expand-md navbar-dark">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapsibleNavBar">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a href="index.html" class="nav-link lnk">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="about.html" class="nav-link lnk">ABOUT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link lnk">WHAT WE OFFER</a>       
+                                </li>
+                                <li class="nav-item">
+                                    <a href="contact.html" class="nav-link lnk">CONTACT</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
                 <div>
                     <h1>MEN'S <br>FASHION <br>50% OFF</h1>
@@ -92,7 +109,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 p-5 mt-5">
+            <div class="col-lg-12 p-5 mt-5">
                 <h1 class="text-center">SHOP WITH <span class="text-warning">US</span></h1>
                 <h6 class="text-center">Handpicked Favourites just for you</h6>
                 <div class="d-flex flex-row justify-content-around p-5">
