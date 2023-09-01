@@ -1,0 +1,303 @@
+
+#carouselExampleControls{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 67%;
+    z-index: -1;
+    object-fit: cover;
+}
+.spann   a{
+    text-decoration: none;
+    color: orangered;
+}
+.spann2{
+    text-decoration: none;
+    color: black;
+}
+#c1{
+    text-align: left;
+    margin-bottom: 110px;
+}
+#c1 h1{
+    font-size: 55px;
+
+}
+#btn{
+    width: 120px;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+    outline: none;
+}
+#btn:hover{
+    background-color: orange;
+}
+#btn2:hover{
+    background-color: orange;
+}
+#btn3:hover{
+    background-color: orange;
+}
+.text-h1 h1{
+    font-weight: 800;
+}
+#container2{
+    background-image: url("images/left3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 650px;
+    padding: 20px;
+}
+#container2 h1{
+    margin-left: 20px;
+    margin-top: 140px;
+    font-size: 60px;
+}
+.lnk{
+    text-decoration: none;
+    color: white;
+}
+.lnk:hover{
+    color: orange;
+}
+#img1{
+    height: 650px;
+}
+#imgss h3:hover{
+    color: orange;
+}
+#container3{
+    padding: 20px;
+    background-color: rgb(178, 178, 206,0.2);
+}
+#container4{
+    margin-top: 90px;
+}
+#btn3{
+    width: 135px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.hi{
+    border-radius: 10px;
+    background-image: url("images/shop-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 335px;
+    width: 260px;
+}
+.hi:hover{
+    background-image: url("images/shop-11.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 335px;
+}
+.hi1{
+    width: 260px;
+    border-radius: 10px;
+    background-image: url("images/shop-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 335px;
+}
+.hi1:hover{
+    background-image: url("images/shop-22.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 335px;
+}
+.hi2{
+    width: 260px;
+    border-radius: 10px;
+    background-image: url("images/shop-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 335px;
+}
+.hi2:hover{
+    background-image: url("images/shop-33.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 335px;
+}
+.hi3{
+    width: 260px;
+    border-radius: 10px;
+    background-image: url("images/shop-4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 335px;
+}
+.hi3:hover{
+    background-image: url("images/shop-44.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 335px;
+}
+.hi4{
+    width: 260px;
+    border-radius: 10px;
+    background-image: url("images/shop-5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 335px;
+}
+.hi4:hover{
+    background-image: url("images/shop-55.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 335px;
+}
+.hi5{
+    width: 260px;
+    border-radius: 10px;
+    background-image: url("images/shop-6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 335px;
+}
+.hi5:hover{
+    background-image: url("images/shop-66.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 335px;
+}
+.hi6{
+    width: 260px;
+    border-radius: 10px;
+    background-image: url("images/shop-7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 335px;
+}
+.hi6:hover{
+    background-image: url("images/shop-77.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 335px;
+}
+.hi7{
+    width: 260px;
+    border-radius: 10px;
+    background-image: url("images/shop-8.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 335px;
+}
+.hi7:hover{
+    background-image: url("images/shop-88.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 335px;
+}
+.container5{
+    color: white;
+    background-image: url("images/bg3.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    padding: 100px;
+    text-align: center;
+    height: 500px;
+}
+#search{
+    border-radius: 30px;
+    height: 40px;
+}
+.join{
+    text-align: center;
+    margin-top: 220px;
+    padding: 80px;
+}
+.image{
+    width: 680px;
+}
+#input{
+    margin-top: 45px;
+}
+.container8{
+    width: 600px;
+    margin-right: 120px;
+    margin-left: 50px;
+}
+li{
+    list-style-type: none;
+}
+.list li a{
+    text-decoration: none;
+    color: white;
+
+}
+.list{
+    margin-right: 70px;
+}
+#bring:hover{
+    color: orange;
+}
+#container9{
+    background-image: url("images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+#container10{
+    background-image: url("images/banner4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 80px;
+}
+#container11{
+    padding: 70px;
+    text-align: center;
+}
+#icons1{
+    color: orangered;
+    font-size: 60px;
+}
+#container12{
+    height: 400px;
+    width: 350px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    border-color: red;
+    background-image: url("images/team1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container13{
+    height: 400px;
+    width: 350px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    border-color: red;
+    background-image: url("images/team2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container14{
+    height: 400px;
+    width: 350px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    border-color: red;
+    background-image: url("images/team3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
